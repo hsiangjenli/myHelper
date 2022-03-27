@@ -1,0 +1,70 @@
+/* @theme black */
+
+@import 'uncover';
+
+
+.container {
+    display: flex;                 
+    flex-direction: row;           
+    flex-wrap: nowrap;             
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    background-color: none;
+}
+
+section {
+    background-color: black;
+}
+
+blockquote {
+    padding: 1rem;
+    background-color: #222222;
+}
+
+h1, h2, h3, h4, h5, h6, p, li {
+    color: white;
+}
+
+p {
+    align-self: start;
+}
+
+ol, ul {
+    margin-left:0; 
+}
+
+table {
+    --r-main-color: #fff;
+    text-shadow: 0 0 1em transparent, 1px 1px 1.2px rgba( 0, 0, 0, .004 );
+    letter-spacing: .025em;
+    color: var(--r-main-color);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    cursor: none;
+    text-align: center;
+    pointer-events: auto;
+    font-size: .65rem;
+    border-color: rgba(231, 231, 231, var(--tw-border-opacity));
+}
+code.language-python {
+    background: none;
+    color: #fff;
+}
+pre {
+    margin: 0rem;
+    padding: .65rem;
+    background-color: #222222;
+    border-radius: .5rem;
+    font-size: .6rem;
+}
+
+.hljs-keyword {
+    color: coral !important;
+}
+.hljs-string {
+    color: rgb(98, 177, 98) !important;
+}
+
+
